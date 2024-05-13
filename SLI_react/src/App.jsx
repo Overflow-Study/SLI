@@ -1,13 +1,16 @@
-import { useState } from 'react'
 import './css/App.css'
+import { useState } from 'react'
+import { currentLocation } from "./library/showMap";
 import Map from './components/Map'
-import CurrentLoction from './components/CurrentLocation'
+import InfoBtn from './components/InfoBtn'
+import Header from './components/Header';
 
 const App = ()=>{
   return (
     <div className="container">
       <Map />
-      <CurrentLoction />
+      <Header />
+      <InfoBtn getLocation={currentLocation}/>
     </div>
   )
 }

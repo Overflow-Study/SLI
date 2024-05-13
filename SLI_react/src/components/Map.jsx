@@ -1,8 +1,12 @@
 import { useState, useRef, useEffect } from "react"
-import { showMap, getLocation } from "./showMap";
+import { showMap } from "../library/showMap"
 
 const Map = ()=>{
-    useEffect(showMap)
+    useEffect(() => {
+        showMap()
+        console.log("Map Start!")
+    }, [])
+    
     return (
         <>
             <div id="map"></div>
@@ -10,4 +14,4 @@ const Map = ()=>{
     )
 }
 
-export default Map
+export default Map;

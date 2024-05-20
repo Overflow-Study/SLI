@@ -1,0 +1,18 @@
+.nearest_station{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.nearest_station_title{
+  font-size: 14px;
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 6px 10px 5px 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+

@@ -12,7 +12,7 @@
   background-color: rgb(199, 206, 255);
 }
 
-@media screen and (max-width:468px) {
+@media screen and (max-width:440px) {
   .container {
     border-radius: 0px;
   }

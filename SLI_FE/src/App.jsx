@@ -11,6 +11,7 @@ import Header from "./components/Header";
 
 const App = () => {
   const [location, setLocation] = useState("--------------------");
+  const [nearestStation, setNearestStation] = useState("---역");
 
   const currentLocationEvent = async () => {
     const currentLocationRoadAddress = await currentLocation();
@@ -22,6 +23,8 @@ const App = () => {
 
   const nearestStationsEvent = async () => {
     const nearbyStationsRoadAddress = await findNearestSubwayStation();
+
+    setNearestStation(nearbyStationsRoadAddress.SW_NM+"역");
 
     console.log("가장 가까운 지하철 정보 리턴 값 :", nearbyStationsRoadAddress);
   };
@@ -37,6 +40,7 @@ const App = () => {
       <Map />
       <Header
         location={location}
+        nearestStation={nearestStation}
         nearestStationsEvent={nearestStationsEvent}
         nearbyStationsEvent={nearbyStationsEvent}
       />

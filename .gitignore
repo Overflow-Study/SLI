@@ -1,4 +1,4 @@
-SLI _FE/dist
-SLI _FE/package-lock.json
-SLI _FE/node_modules
+SLI_FE/dist
+SLI_FE/package-lock.json
+SLI_FE/node_modules
 .DS_Store

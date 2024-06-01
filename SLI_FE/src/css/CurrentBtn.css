@@ -1,7 +1,7 @@
 .btnContainer {
     z-index: 100;
     position: absolute;
-    bottom: 7%;
+    bottom: 8%;
     left: 50%;
     transform: translate(-50%,0%);
     text-align: center;
@@ -10,7 +10,7 @@
 .currentPostion{
     background-color: white;
     border-radius: 30px;
-    border: 2px solid blue;
+    border: 3px solid blue;
     padding: 8px 18px 6px 18px;
     text-align: center;
     font-size: 16px;

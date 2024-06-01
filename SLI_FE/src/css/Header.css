@@ -11,14 +11,14 @@
 }
 
 .logo {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   width: 6rem;
-  margin-left: 25px;
+  margin-left: 2rem;
 } 
 
 .header_inner {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 0px 25px;
 }

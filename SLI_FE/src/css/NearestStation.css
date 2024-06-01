@@ -1,0 +1,42 @@
+.nearest_station{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 10px;
+}
+
+.nearest_station > .title{
+  font-size: 14px;
+  background-color: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 6px 15px 5px 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nearest_station > .name {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nearest_station > .line {
+  height: 0.15rem;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.nearest_station > .line:nth-child(2) {
+  width: 100%;
+}
+.nearest_station > .line:nth-child(3) {
+  width: 65%;
+}
+.nearest_station > .line:nth-child(4) {
+  width: 30%;
+}
+

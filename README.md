@@ -6,7 +6,7 @@ SLI Project는 사회적 약자를 위한 지하철 엘레베이터 위치정보
 기존 Android APP에서 Web PWA 사용으로 웹 사이트와 ios, android, win/mac os 등등 지원 됩니다.
 
 ## 환경 설정
-### [SLI - React](SLI_FE\README.md)<br>
+### [SLI - React](https://github.com/Overflow-Study/SLI/blob/main/SLI_FE/README.md)<br>
 
 #### Fast Start
 ```sh

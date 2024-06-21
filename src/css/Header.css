@@ -1,0 +1,24 @@
+.header {
+  position: absolute;
+  background-color: #547AFF;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: auto;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  padding: 10px 10px 0px 10px;
+  width: 6rem;
+  margin-left: 2rem;
+} 
+
+.header_inner {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0px 25px;
+}

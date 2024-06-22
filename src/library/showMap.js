@@ -91,7 +91,7 @@ const findDist = (lat1, lon1, lat2, lon2) => {
 
 const fetchData = async () => {
   try {
-    const apiKey = "594a714f67726c61313037546b486b55";
+    const apiKey = import.meta.env.VITE_PUBLIC_API;
     const url = `http://openapi.seoul.go.kr:8088/${apiKey}/json/tbTraficElvtr/1/999/`;
     const response = await fetch(url);
     const data = await response.json();

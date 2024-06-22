@@ -2,26 +2,7 @@
 SLI의 클라이언트 부분입니다.
 
 ## react 설정 방법
-
-#### index 파일
-- index.html 파일을 만들어 아래의 코드를 넣어 줍니다.
-Kakao map api 키 부분을 바꾸어 주세요.
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./img/Web_logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SLI</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey= 해당 API키 입력&libraries=services"></script>
-  </body>
-</html>
-```
+.env 파일에 VITE_KAKAOMAP_API 키값을 카카오맵 API키 값을 넣어주세요
 
 ### 문제 상황
 - vercal 배포중 deploy 무한 로딩
